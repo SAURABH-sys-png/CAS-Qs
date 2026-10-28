@@ -6,7 +6,7 @@ struct Eq {
   std::vector<double> coeffs;
   Eq() : coeffs(){}
   Eq(std::vector<double> arr) : coeffs(arr){}
-}
+};
 // eq using two variables
 struct Quad_eq{
   Eq x,y;
